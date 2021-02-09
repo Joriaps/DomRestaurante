@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Menu del dia</h1>
+        <menu>
+            <div id="costillas">
+                <nombre>Costillas</nombre> ------ 
+                <precio>25</precio> € ------ 
+                <cod id="cod">C01</cod>
+            </div>
+            <div id="patatas">
+                <nombre>Patatas</nombre> --------
+                <precio>6</precio> € -------
+                <cod id="cod">A01</cod>
+            </div>
+            <div id="vino_tinto">
+                <nombre>Vino tinto</nombre> ----
+                <precio>21</precio> € ------
+                <cod id="cod">V01</cod>
+            </div>
+            <div id="postre">
+                <nombre>Postre</nombre> --------
+                <precio>18</precio> € -------
+                <cod id="cod">P01</cod>
+            </div>
+        </menu>
+        <p>
+            Introduce el código del plato que quieras. Cuando hayas terminado de pedir, pulsa <b>Pagar</b>
+            <section>
+                <input type="text" id="cod_introducido" placeholder="Código" />
+                <button id="botonAdd" class="botonAdd">Añadir</button>
+                <button id="botonPagar">Pagar</button>
+            </section>
+        </p>
+        <script src="menu.js"></script>
+        <script src="index.js"></script>
+    </body>
+    </html>
